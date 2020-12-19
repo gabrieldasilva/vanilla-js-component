@@ -1,0 +1,11 @@
+{
+  "name": "component-vanilla",
+  "version": "1.0.0",
+  "description": "A pratical example of a component with vanilla javascript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Gabriel Dasilva",
+  "license": "ISC"
+}
