@@ -1,0 +1,30 @@
+body {
+    font-family: sans-serif;
+}
+
+li {
+    display: list;
+    margin-bottom: 5px;
+}
+li:not(.default) {
+    display: none;
+}
+.show-more-link {
+    position: relative;
+    color: blue;
+}
+.show-more-link::after {
+    content: "\25BC";
+    position: absolute;
+    bottom: 3px;
+    right: -15px;
+    font-size: 10px;
+    cursor: pointer;
+}
+.collapsible-list.open a::after{
+    content: "\25B2";
+    bottom: 3px;
+}
+.collapsible-list.open li:not(.default) {
+    display: list-item;
+}
